@@ -3,4 +3,4 @@ command /fakeleave:
    permission: op
    permission message: "You can't use that command!"
    trigger:
-      tellraw {"text":"player has left the game", "color":"yellow"}
+      tellraw @a {"text":"player has left the game", "color":"yellow"}
