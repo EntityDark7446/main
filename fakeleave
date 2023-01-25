@@ -1,3 +1,4 @@
+-- MineHut only
 command /fakeleave:
    permission: op
    permission message: "You can't use that command!"
