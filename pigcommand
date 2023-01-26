@@ -1,7 +1,0 @@
--- MineHut only
-command /pig:
-   permission: op
-   permission message: "You can't use that command!"
-   trigger:
-       give player 10 porkchop
-       spawn a pig at location of player
