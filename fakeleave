@@ -1,6 +1,0 @@
--- MineHut only
-command /fakeleave:
-   permission: op
-   permission message: "You can't use that command!"
-   trigger:
-      tellraw @a {"text":"player has left the game", "color":"yellow"}
